@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>regist</title>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/regist.js"></script>
+</head>
+<body>
+    <div align="center">
+        <ul type="none">
+            <li>
+                <span>姓名：</span><input type="text" placeholder="请输入姓名" id="name"><br>
+                <span id="message"></span>
+            </li>
+            <li>
+                <span>密码：</span><input type="password" placeholder="请输入密码" id="password">
+            </li>
+            <li>
+                <span>年龄：</span><input type="number" placeholder="请输入年龄" id="age">
+            </li>
+            <li>
+                <span>性别：</span><input type="radio" value="1" name="sex" checked="checked">男
+                <input  type="radio" value="0" name="sex" >女
+            </li>
+        </ul>
+        <input id="button" type="button" value="提交">
+    </div>
+</body>
+</html>
